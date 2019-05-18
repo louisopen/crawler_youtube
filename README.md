@@ -5,6 +5,7 @@
 ### ./Python 及./Python/Scripts 的在Windows的環境變數最好設定在windows系統參數內
 * 爬蟲在Windows 10 install Python3.6 運行
 * Setup Python path in windows 在命令提示下: C>path %path%;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\  或是在系統環境變數path 加入C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\ 
+
 * Setup PIP path in windows 在命令提示下: C>path %path%;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts  或是在系統環境變數path 加入C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts
 
 ### 本例debug運行時,注意有些庫文件要預先裝的
@@ -33,3 +34,5 @@ Stock_TWSE.py
 #### 參考資訊
 https://github.com/Asoul/tsec
 https://github.com/nelsonchung/TaiwanStockMonitor
+https://github.com/louisopen/PythonCrawler
+https://louisopen.github.io
