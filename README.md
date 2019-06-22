@@ -1,5 +1,5 @@
 ## Python Crawler
-爬蟲方法及工具很多,先抓一些來測試功能及行為,同時記錄一下免得又忘了
+爬蟲方法及工具很多,Windows的環境還是方便一些,先抓一些來測試功能及行為,同時記錄一下免得又忘了
 * 本文參考 http://tw.gitbook.net/python/python_environment.html
 
 ### ./Python 及./Python/Scripts 的在Windows的環境變數最好設定在windows系統參數內
