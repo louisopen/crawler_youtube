@@ -1,5 +1,6 @@
-
-
+#!/usr/bin/env python3
+#coding=utf-8
+#爬蟲出youtube音樂項目
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -17,12 +18,12 @@ for I in res:
  if "00:00:5e:00:xx:xx" in I:
    print(I[:20])
 """
-file = open('result.text','w')
+file = open('result.txt','w', encoding='utf-8')
 for item in container:
     if item:
         #print(type(item))
         value = item.get_text()
         print(value)
-        file.write(value+'\n')
+        file.write(value +'\n')
     
 file.close()
